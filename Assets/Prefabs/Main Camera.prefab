@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3020949986950129348}
   - component: {fileID: 630481083856041721}
   - component: {fileID: 2905698890860756754}
+  - component: {fileID: 6029995588943297764}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -153,3 +154,20 @@ MonoBehaviour:
   followSpeed: 8
   defaultPos: {x: 0, y: 6, z: 6}
   defaultRotate: {x: 12, y: 0, z: 0}
+--- !u!114 &6029995588943297764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2578981567819218360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab4a9e97c047ba54586169c450b7e225, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseSensitivity: 3
+  minVerticalAngle: -15
+  maxVerticalAngle: 15
+  minHorizontalAngle: -15
+  maxHorizontalAngle: 15
